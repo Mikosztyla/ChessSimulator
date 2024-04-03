@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<HBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      minHeight="550.0" minWidth="850.0"
+      spacing="5" alignment="CENTER"
+      fx:controller="presenter.ChessPresenter">
+
+    <Button onAction="#onGameStartClick" minWidth="150" minHeight="40">Start</Button>
+</HBox>
